@@ -1,0 +1,16 @@
+create table if not exists code_set_data(
+code_set_id integer not null,
+description varchar(255) null,
+map_table_name varchar(255) null,
+start_date varchar(255) null,
+end_date varchar(255) null,
+record_created char null,
+record_modified char null,
+record_deleted char null,
+action_source varchar(255) null,
+process_name varchar(255) null,
+process_id varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint code_set_data_pk primary key(code_set_id));
